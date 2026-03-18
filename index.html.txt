@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bánh Tráng Nướng Mắm Ruốc Phan Thiết</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Trải nghiệm hương vị Phan Thiết – Bánh Tráng Nướng Mắm Ruốc chuẩn vị</h1>
+  <p>Giòn rụm – Đậm đà – Thơm lừng, món ăn đường phố khiến bạn mê ngay từ miếng đầu tiên.</p>
+  <button class="btn" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">👉 Đặt ngay</button>
+</header>
+
+<section id="menu">
+  <h2>Menu hấp dẫn</h2>
+  <div class="menu">
+    <div class="card">
+      <img src="images/banh-trang.jpg" alt="Bánh tráng nướng mắm ruốc" loading="lazy">
+      <p>Bánh tráng nướng mắm ruốc truyền thống – 15k</p>
+    </div>
+    <div class="card">
+      <img src="images/ca-vien-chien.jpg" alt="Cá viên chiên mắm Sài Gòn" loading="lazy">
+      <p>Cá viên chiên mắm Sài Gòn – 50k/phần</p>
+    </div>
+    <div class="card">
+      <img src="images/cut-lon-xao-me.jpg" alt="Cút lộn xào me Sài Gòn" loading="lazy">
+      <p>Cút lộn xào me vị Sài Gòn – 25k/phần</p>
+    </div>
+    <div class="card">
+      <img src="images/tra-chanh.jpg" alt="Trà chanh ô long" loading="lazy">
+      <p>Trà chanh vị ô long – 12k/ly</p>
+    </div>
+    <div class="card">
+      <img src="images/tra-tac.jpg" alt="Trà tắc ô long" loading="lazy">
+      <p>Trà tắc vị ô long – 10k/ly</p>
+    </div>
+    <div class="card">
+      <img src="images/da-me.jpg" alt="Đá me nhà làm" loading="lazy">
+      <p>Đá me nhà làm – thơm ngon mát lạnh</p>
+    </div>
+  </div>
+</section>
+
+<section id="testimonial">
+  <h2>Khách hàng nói gì?</h2>
+  <p class="testimonial">“Giòn tan, thơm lừng, ăn một lần là nhớ mãi!” – Minh, Đà Nẵng</p>
+  <p class="testimonial">“Chuẩn vị Phan Thiết, không lẫn đi đâu được.” – Lan, Hà Nội</p>
+</section>
+
+<section id="contact">
+  <h2>Liên hệ & Địa điểm</h2>
+  <p>📍 DT 609 Trần Quý Cáp, Phường An Thắng, Đà Nẵng</p>
+  <p>📞 Hotline: 0559576875</p>
+  <p>🕒 Giờ mở cửa: 15h – 23h mỗi ngày</p>
+  <button class="btn">Gọi ngay</button>
+  <button class="btn">Đặt hàng qua Zalo</button>
+  <div style="margin-top:20px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+<footer>
+  <p>Giòn rụm – Đậm đà – Chuẩn vị Phan Thiết</p>
+  <div class="social">
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+  </div>
+</footer>
+
+</body>
+</html>
